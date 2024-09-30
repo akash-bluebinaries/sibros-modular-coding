@@ -1,0 +1,12 @@
+setuptools
+pandas
+numpy
+flask
+joblib
+scikit-learn
+dill
+# log_viewer
+xgboost
+optuna
+
+-e .

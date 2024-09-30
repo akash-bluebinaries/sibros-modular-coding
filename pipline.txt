@@ -1,0 +1,25 @@
+1. create environment -> activate environment -> RUN template.py -> PREPARE setup.py -> RUN requirements.txt
+
+2. Prepare logger -> Prepare Exceptions -> Prepare Utils
+
+3. Prepare constants -> Prepare connfiguration
+
+4. Prepare data_ingestion.py -> Prepare data_transform.py -> Prepare model_trainer.py
+
+5. Prepare training_pipeline.py -> Prepare prediction_pipeline.py -> Prepare batch_pipeline.py
+
+6. Prepare app.py -> Prepare template folder (HTML FILES)
+
+
+#################################################################################################################################################################
+
+
+# Data Ingestion
+constant file -> configuration file -> data ingestion
+
+# Data Transformation
+constant file -> configuration file -> data transformation -> utils file -> data transformation
+
+
+# Model Training
+Constant file -> configuration file -> Model Training file -> utils file (Helper function)
